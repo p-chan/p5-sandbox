@@ -1,5 +1,14 @@
 {
   "name": "p5-sandbox",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "budo -p 3000"
+  },
+  "dependencies": {
+    "p5": "0.5.2"
+  },
+  "devDependencies": {
+    "budo": "8.3.0"
+  }
 }
